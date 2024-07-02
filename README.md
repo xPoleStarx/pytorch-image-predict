@@ -25,3 +25,17 @@ This repository contains a simple PyTorch-based image prediction system. It demo
 git clone https://github.com/xPoleStarx/pytorch-image-predict.git
 cd pytorch-image-predict
 ```
+## Example Output
+
+The system will output the predicted class for the input image along with the prediction confidence. Additionally, it will display the top-5 class predictions with their respective probabilities.
+
+```shell
+Predicted Class: Border collie
+Confidence: 23.63%
+
+Top-5 Predictions:
+1. Border collie - 23.63%
+2. English springer, English springer spaniel - 7.99%
+3. Saluki, gazelle hound - 5.92%
+4. Collie - 5.38%
+5. Boston bull, Boston terrier - 3.76%
