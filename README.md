@@ -30,12 +30,8 @@ cd pytorch-image-predict
 The system will output the predicted class for the input image along with the prediction confidence. Additionally, it will display the top-5 class predictions with their respective probabilities.
 
 ```shell
-Predicted Class: Border collie
-Confidence: 23.63%
-
-Top-5 Predictions:
-1. Border collie - 23.63%
-2. English springer, English springer spaniel - 7.99%
-3. Saluki, gazelle hound - 5.92%
-4. Collie - 5.38%
-5. Boston bull, Boston terrier - 3.76%
+232: 'Border collie', 23.630033493041992
+217: 'English springer, English springer spaniel', 7.991372108459473
+176: 'Saluki, gazelle hound', 5.918837547302246
+231: 'collie', 5.379868507385254
+195: 'Boston bull, Boston terrier', 3.7559683322906494
